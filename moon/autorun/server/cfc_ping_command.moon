@@ -5,7 +5,7 @@ SysTime = SysTime
 allPlayers = player.GetAll
 
 pingCommand = ->
-    recieved = time!
+    received = time!
     uptime = SysTime!
     playerCount = #allPlayers!
 
