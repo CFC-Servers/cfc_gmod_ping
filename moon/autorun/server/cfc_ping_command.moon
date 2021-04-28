@@ -3,6 +3,7 @@ import time from os
 
 SysTime = SysTime
 allPlayers = player.GetAll
+print = print
 
 pingCommand = ->
     received = time!
