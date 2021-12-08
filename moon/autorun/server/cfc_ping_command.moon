@@ -1,14 +1,10 @@
 import TableToJSON from util
 import time from os
 
-SysTime = SysTime
-allPlayers = player.GetAll
-print = print
-
 pingCommand = ->
     received = time!
     uptime = SysTime!
-    playerCount = #allPlayers!
+    playerCount = #player.GetAll!
 
     print TableToJSON
         :received
