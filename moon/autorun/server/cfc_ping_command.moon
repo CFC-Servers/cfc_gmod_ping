@@ -1,5 +1,5 @@
-import TableToJSON from util
 import time from os
+import TableToJSON from util
 
 pingCommand = ->
     received = time!
@@ -12,3 +12,4 @@ pingCommand = ->
         :playerCount
 
 concommand.Add "cfc_ping", pingCommand
+timer.Create "CFC_Ping_Interval", 30, 0, pingCommand
